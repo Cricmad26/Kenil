@@ -1,0 +1,149 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+}
+nav{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    z-index: 1000;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color:black;
+    color:bisque; 
+}
+.logo img{
+    padding-left: 30px;
+    height:53px;
+    width: 66px;
+}
+nav p{
+    font:large;
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+nav p span{
+    margin-top: 0px;
+    font-size: 12px;
+}
+nav ul a{
+    margin-left: 80px;
+    text-decoration: none;
+    color:bisque;
+}
+nav ul p{
+    display: inline;
+}
+.home{
+    width: 100%;
+    height:550px;
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.text{
+    position: absolute;
+    margin-top: 0;
+    top: 20%;
+    left: 5%;
+    font-size: 45px;
+    color: white;
+}
+.card{
+    
+    margin-top:20px;
+}
+.card h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding-left: 20px;
+    font-size:25px;
+}
+
+.images img{
+   margin-inline: 10px;
+   padding-left: 5px;
+    height:300px;
+    width:420px;
+    justify-content:center;
+    border-radius: 10px;
+}
+.content{
+    margin-left: 55px;
+    
+
+}
+.text1{
+    text-align: center;
+    font-size: 45px;
+}
+.contentimges img{
+    margin-inline: 10px;
+   padding-left: 5px;
+    height:300px;
+    width:420px;
+    justify-content:center;
+    border-radius: 10px;
+}
+.contentimges{
+    width: 100%;
+   display: flex;
+   
+}
+.contentimges a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.contentimges1 img{
+    margin-inline: 10px;
+   padding-left: 5px;
+    height:300px;
+    width:420px;
+    justify-content:center;
+    border-radius: 10px;
+}
+.contentimges1{
+    width: 100%;
+   display: flex;
+   
+}
+.contentimges1 #acess{
+    margin-top: 39px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#last{
+    margin-left: 33px;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.ftimg img{
+    margin-left: 150px;
+    height:420px;
+    width:420px;
+    border-radius: 50%;
+}
+.ftc{
+    display: flex;
+    margin-left: 23px;
+}
+.para{
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+}
+#copy{
+    margin-top: 50px;
+   text-align: center;
+}
+
